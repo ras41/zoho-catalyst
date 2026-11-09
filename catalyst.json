@@ -7,6 +7,46 @@
       "language": "nodejs",
       "memory": 128,
       "timeout": 5
+    },
+    {
+      "name": "basic_io_example",
+      "type": "basicio",
+      "source": "functions/basic_io_example",
+      "language": "nodejs",
+      "memory": 128,
+      "timeout": 5
+    },
+    {
+      "name": "event_function_example",
+      "type": "event",
+      "source": "functions/event_function_example",
+      "language": "nodejs",
+      "memory": 128,
+      "timeout": 5
+    },
+    {
+      "name": "cron_function_example",
+      "type": "cron",
+      "source": "functions/cron_function_example",
+      "language": "nodejs",
+      "memory": 128,
+      "timeout": 5
+    },
+    {
+      "name": "catalyst_features_demo",
+      "type": "advancedio",
+      "source": "functions/catalyst_features_demo",
+      "language": "nodejs",
+      "memory": 256,
+      "timeout": 15
+    }
+  ],
+  "appsails": [
+    {
+      "name": "example_app",
+      "source": "appsail/example_app",
+      "build_path": ".",
+      "memory": 256
     }
   ]
 }

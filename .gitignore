@@ -1,2 +1,4 @@
 node_modules/
 functions/health_monitor/node_modules/
+appsail/example_app/node_modules/
+functions/catalyst_features_demo/node_modules/
