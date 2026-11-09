@@ -1,0 +1,12 @@
+{
+  "functions": [
+    {
+      "name": "health_monitor",
+      "type": "advancedio",
+      "source": "functions/health_monitor",
+      "language": "nodejs",
+      "memory": 128,
+      "timeout": 5
+    }
+  ]
+}
